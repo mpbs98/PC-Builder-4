@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PC Builder - Build your custom PC with ease. Choose components, compare prices, and create your dream build.">
+    <title>PC Builder - Builder</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon/fav.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cpu"></i> PC Builder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="builder.html"><i class="bi bi-tools"></i> Builder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggest.html"><i class="bi bi-plus-circle"></i> Suggest Component</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="author.html"><i class="bi bi-person"></i> About Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/other/doc.pdf" target="_blank"><i class="bi bi-book"></i>
+                            Documentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== MOBILE TOGGLE BUTTONS ==================== -->
+    <!-- Mobile Filter Toggle Button -->
+    <button class="btn btn-primary mobile-filter-toggle d-md-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#filtersCanvas">
+        <i class="fa-solid fa-sliders"></i> <span class="text-white">Filters</span>
+    </button>
+
+    <!-- Mobile Build Toggle Button -->
+    <button class="btn btn-success mobile-build-toggle d-md-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#builderCanvas">
+        <i class="fa-solid fa-screwdriver-wrench"></i> <span class="text-white">Build</span>
+    </button>
+
+    <!-- ==================== MAIN CONTENT AREA ==================== -->
+    <div class="container-fluid mt-3 mb-5">
+        <div class="row px-md-3">
+
+            <!-- ==================== LEFT SIDEBAR - DESKTOP FILTERS ==================== -->
+            <aside class="col-md-3 col-lg-2 d-none d-md-block sidebar">
+                <div class="side-panel">
+                    <h5 class="fw-bold mb-3 text-white"><i class="fa-solid fa-sliders text-white me-2"></i>Filters</h5>
+
+                    <div class="input-group mb-4">
+                        <span class="input-group-text bg-transparent">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input type="text" id="search-desktop" name="search-desktop" class="form-control"
+                            placeholder="Search..." aria-label="Search components">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="sort-desktop" class="form-label text-white-50 small text-uppercase fw-bold">Sort
+                            By</label>
+                        <select id="sort-desktop" name="sort-desktop" class="form-select form-select-sm">
+                            <option value="price-low-high">Price (Low to High)</option>
+                            <option value="price-high-low">Price (High to Low)</option>
+                            <option value="a-z">A-Z</option>
+                            <option value="z-a">Z-A</option>
+                            <option value="newest">Date Released (Newest First)</option>
+                            <option value="oldest">Date Released (Oldest First)</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label text-white-50 small text-uppercase fw-bold">Categories</label>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="cpu-desktop" name="category"
+                                value="processor">
+                            <label class="form-check-label" for="cpu-desktop">CPU</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="gpu-desktop" name="category"
+                                value="graphics_card">
+                            <label class="form-check-label" for="gpu-desktop">GPU</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="mobo-desktop" name="category"
+                                value="motherboard">
+                            <label class="form-check-label" for="mobo-desktop">Motherboard</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="ram-desktop" name="category"
+                                value="memory">
+                            <label class="form-check-label" for="ram-desktop">Memory</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="storage-desktop" name="category"
+                                value="storage">
+                            <label class="form-check-label" for="storage-desktop">Storage</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="psu-desktop" name="category"
+                                value="power_supply">
+                            <label class="form-check-label" for="psu-desktop">PSU</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="mouse-desktop" name="category"
+                                value="mouse">
+                            <label class="form-check-label" for="mouse-desktop">Mouse</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="keyboard-desktop" name="category"
+                                value="keyboard">
+                            <label class="form-check-label" for="keyboard-desktop">Keyboard</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="headset-desktop" name="category"
+                                value="headset">
+                            <label class="form-check-label" for="headset-desktop">Headset</label>
+                        </div>
+
+                        <div class="form-check form-switch mb-2">
+                            <input class="form-check-input" type="checkbox" id="monitor-desktop" name="category"
+                                value="monitor">
+                            <label class="form-check-label" for="monitor-desktop">Monitor</label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- ==================== MAIN CONTENT - COMPONENTS ==================== -->
+            <main class="col-12 col-md-6 col-lg-8">
+                <!-- Top Pagination -->
+                <div class="bg-dark pt-2 pb-2 mb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center">
+                                    <nav>
+                                        <ul class="pagination pagination-sm mb-0">
+                                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ==================== COMPONENTS GRID ==================== -->
+                <div class="row g-4" id="components-holder">
+                    <div class="col-12">
+                        <div class="alert alert-secondary mb-0">Loading components...</div>
+                    </div>
+                </div>
+
+                <!-- ==================== BOTTOM PAGINATION ==================== -->
+                <!-- Bottom Pagination -->
+                <div class="bg-dark pt-2 pb-2 mt-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center">
+                                    <nav>
+                                        <ul class="pagination pagination-sm mb-0">
+                                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- ==================== RIGHT SIDEBAR - BUILD & FAVORITES ==================== -->
+            <aside class="col-md-3 col-lg-2 d-none d-md-block sidebar">
+                <div class="side-panel mb-4" id="desktop-build-panel">
+                    <h5 class="fw-bold mb-3 text-white"><i
+                            class="fa-solid fa-screwdriver-wrench text-white me-2"></i>Your Build
+                    </h5>
+
+                    <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-2">
+                        <span class="small text-white-50">Total Price</span>
+                        <span class="fw-bold text-success" id="desktop-total-price">$0.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-2">
+                        <span class="small text-white-50">Current Power</span>
+                        <span class="fw-bold text-warning" id="desktop-current-power">0W</span>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-3">
+                        <span class="small text-white-50">Required PSU</span>
+                        <span class="fw-bold text-info" id="desktop-required-power">0W</span>
+                    </div>
+
+                    <div id="desktop-compatibility-alerts"></div>
+
+                    <div id="desktop-build-list"></div>
+
+                    <div class="mt-3 pt-3 border-top border-secondary-subtle">
+                        <label for="desktop-build-name" class="form-label text-white-50 small text-uppercase fw-bold">Build Name</label>
+                        <input type="text" class="form-control form-control-sm build-name-input" id="desktop-build-name"
+                            placeholder="Gaming build">
+                        <button class="btn btn-primary btn-sm w-100 mt-2 save-build-btn" type="button">
+                            <i class="fa-solid fa-floppy-disk me-1"></i> Save Build
+                        </button>
+                        <p class="small mt-2 mb-0 save-build-status text-white-50"></p>
+                    </div>
+
+                </div>
+
+                <div class="side-panel" id="desktop-favorites-panel">
+                    <h6 class="fw-bold text-uppercase small text-white-50 mb-2"><i
+                            class="fa-solid fa-star text-warning me-2"></i>Favorites
+                        <span class="badge bg-secondary rounded-pill float-end" id="desktop-favorite-count">0</span>
+                    </h6>
+                    <div id="desktop-favorites-list"></div>
+
+                    <h6 class="fw-bold text-uppercase small text-white-50 mt-4 mb-2"><i
+                            class="fa-solid fa-bookmark text-info me-2"></i>Saved Builds
+                        <span class="badge bg-secondary rounded-pill float-end" id="desktop-saved-build-count">0</span>
+                    </h6>
+                    <div id="desktop-saved-builds-list"></div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- ==================== MOBILE FILTERS OFFCANVAS ==================== -->
+    <div class="offcanvas offcanvas-start bg-dark" id="filtersCanvas">
+        <div class="offcanvas-header border-bottom border-secondary-subtle">
+            <h5 class="fw-bold mb-0 text-white"><i class="fa-solid fa-sliders text-white me-2"></i>Filters</h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h5 class="fw-bold mb-3 text-white"><i class="fa-solid fa-sliders text-white me-2"></i>Filters</h5>
+
+            <div class="input-group mb-4">
+                <span class="input-group-text bg-transparent"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" id="search-mobile" name="search-mobile" class="form-control" placeholder="Search..."
+                    aria-label="Search components">
+            </div>
+
+            <div class="mb-4">
+                <label for="sort-mobile" class="form-label text-white-50 small text-uppercase fw-bold">Sort By</label>
+                <select id="sort-mobile" name="sort-mobile" class="form-select form-select-sm">
+                    <option value="price-low-high">Price (Low to High)</option>
+                    <option value="price-high-low">Price (High to Low)</option>
+                    <option value="a-z">A-Z</option>
+                    <option value="z-a">Z-A</option>
+                    <option value="newest">Date Released (Newest First)</option>
+                    <option value="oldest">Date Released (Oldest First)</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label text-white-50 small text-uppercase fw-bold">Categories</label>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="cpu-mobile" name="category" value="processor">
+                    <label class="form-check-label" for="cpu-mobile">CPU</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="gpu-mobile" name="category"
+                        value="graphics_card">
+                    <label class="form-check-label" for="gpu-mobile">GPU</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="mobo-mobile" name="category"
+                        value="motherboard">
+                    <label class="form-check-label" for="mobo-mobile">Motherboard</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="ram-mobile" name="category" value="memory">
+                    <label class="form-check-label" for="ram-mobile">Memory</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="storage-mobile" name="category" value="storage">
+                    <label class="form-check-label" for="storage-mobile">Storage</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="psu-mobile" name="category"
+                        value="power_supply">
+                    <label class="form-check-label" for="psu-mobile">PSU</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="mouse-mobile" name="category" value="mouse">
+                    <label class="form-check-label" for="mouse-mobile">Mouse</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="keyboard-mobile" name="category"
+                        value="keyboard">
+                    <label class="form-check-label" for="keyboard-mobile">Keyboard</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="headset-mobile" name="category" value="headset">
+                    <label class="form-check-label" for="headset-mobile">Headset</label>
+                </div>
+
+                <div class="form-check form-switch mb-2">
+                    <input class="form-check-input" type="checkbox" id="monitor-mobile" name="category" value="monitor">
+                    <label class="form-check-label" for="monitor-mobile">Monitor</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== MOBILE BUILD OFFCANVAS ==================== -->
+    <div class="offcanvas offcanvas-end bg-dark" id="builderCanvas">
+        <div class="offcanvas-header border-bottom border-secondary-subtle">
+            <h5 class="fw-bold mb-0 text-white"><i class="fa-solid fa-screwdriver-wrench text-white me-2"></i>Your Build
+            </h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-2">
+                <span class="small text-white-50">Total Price</span>
+                <span class="fw-bold text-success" id="mobile-total-price">$0.00</span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-2">
+                <span class="small text-white-50">Current Power</span>
+                <span class="fw-bold text-warning" id="mobile-current-power">0W</span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom border-secondary-subtle pb-2 mb-3">
+                <span class="small text-white-50">Required PSU</span>
+                <span class="fw-bold text-info" id="mobile-required-power">0W</span>
+            </div>
+
+            <div id="mobile-compatibility-alerts"></div>
+
+            <div id="mobile-build-list"></div>
+
+            <div class="mt-3 pt-3 border-top border-secondary-subtle">
+                <label for="mobile-build-name" class="form-label text-white-50 small text-uppercase fw-bold">Build Name</label>
+                <input type="text" class="form-control form-control-sm build-name-input" id="mobile-build-name"
+                    placeholder="Gaming build">
+                <button class="btn btn-primary btn-sm w-100 mt-2 save-build-btn" type="button">
+                    <i class="fa-solid fa-floppy-disk me-1"></i> Save Build
+                </button>
+                <p class="small mt-2 mb-0 save-build-status text-white-50"></p>
+            </div>
+
+            
+            <h6 class="fw-bold text-uppercase small text-white-50 mt-4 mb-2"><i
+                    class="fa-solid fa-star text-warning me-2"></i>Favorites
+                <span class="badge bg-secondary rounded-pill float-end" id="mobile-favorite-count">0</span>
+            </h6>
+            <div id="mobile-favorites-list"></div>
+
+            <h6 class="fw-bold text-uppercase small text-white-50 mt-4 mb-2"><i
+                    class="fa-solid fa-bookmark text-info me-2"></i>Saved Builds
+                <span class="badge bg-secondary rounded-pill float-end" id="mobile-saved-build-count">0</span>
+            </h6>
+            <div id="mobile-saved-builds-list"></div>
+        </div>
+    </div>
+
+    <!-- ==================== COMPONENT DETAILS MODAL ==================== -->
+    <div class="modal fade" id="componentModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-bottom border-secondary-subtle">
+                    <h5 class="modal-title fw-bold">Component Details</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="assets/images/cpu_1.png" class="img-fluid rounded" alt="Detail Image"
+                                id="modal-image">
+                        </div>
+                        <div class="col-md-7">
+                            <h4 id="modal-title">AMD Ryzen 5 7600X</h4>
+                            <h3 id="modal-price" class="text-success mb-3">$229.00</h3>
+                            
+                            <!-- Category and Brand Badges -->
+                            <div class="mb-3 d-flex gap-2">
+                                <span id="modal-category" class="badge bg-primary">Category</span>
+                                <span id="modal-brand" class="badge bg-secondary">Brand</span>
+                            </div>
+                            
+                            <button class="btn btn-success fw-bold" id="modal-build-button"><i class="fa-solid fa-plus me-1"></i> Add to
+                                Build</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Specifications Section -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h5 class="fw-bold mb-3 border-bottom pb-2">Specifications</h5>
+                            <div id="modal-specs">
+                                <!-- Specs will be dynamically inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+<!-- ==================== END OF DOCUMENT ==================== -->
+
+</html>

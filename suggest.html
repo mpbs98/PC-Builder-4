@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PC Builder - Build your custom PC with ease. Choose components, compare prices, and create your dream build.">
+    <title>PC Builder - Suggest a Component</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon/fav.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cpu"></i> PC Builder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="builder.html"><i class="bi bi-tools"></i> Builder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="suggest.html"><i class="bi bi-plus-circle"></i> Suggest Component</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="author.html"><i class="bi bi-person"></i> About Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/other/doc.pdf" target="_blank"><i class="bi bi-book"></i>
+                            Documentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0"><i class="bi bi-plus-circle"></i> Suggest a Component</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted mb-4">
+                            Have a component you'd like to see in our database? Fill out the form below with the
+                            details.
+                            Our team will review your suggestion.
+                        </p>
+
+                        <form id="suggestForm" novalidate>
+                            <!-- Component Category -->
+                            <div class="mb-3">
+                                <label for="componentCategory" class="form-label">
+                                    <i class="bi bi-tag"></i> Component Category *
+                                </label>
+                                <select class="form-select" id="componentCategory" required>
+                                    <option value="">Select Category</option>
+                                    <option value="processor">Processor (CPU)</option>
+                                    <option value="graphics_card">Graphics Card (GPU)</option>
+                                    <option value="motherboard">Motherboard</option>
+                                    <option value="memory">Memory (RAM)</option>
+                                    <option value="storage">Storage</option>
+                                    <option value="power_supply">Power Supply (PSU)</option>
+                                    <option value="cpu_cooler">CPU Cooler</option>
+                                    <option value="case">PC Case</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a category.</div>
+                            </div>
+
+                            <!-- Component Name -->
+                            <div class="mb-3">
+                                <label for="componentName" class="form-label">
+                                    <i class="bi bi-card-heading"></i> Component Name *
+                                </label>
+                                <input type="text" class="form-control" id="componentName"
+                                    placeholder="e.g., AMD Ryzen 9 7950X" required pattern="^[A-Za-z0-9\s\-\.()]+$">
+                                <div class="invalid-feedback">Please enter a valid component name (letters, numbers,
+                                    spaces, hyphens, parentheses only).</div>
+                            </div>
+
+                            <!-- Brand -->
+                            <div class="mb-3">
+                                <label for="componentBrand" class="form-label">
+                                    <i class="bi bi-building"></i> Brand
+                                </label>
+                                <input type="text" class="form-control" id="componentBrand"
+                                    placeholder="e.g., AMD, Intel, NVIDIA, ASUS" pattern="^[A-Za-z0-9\s\-]+$">
+                                <div class="invalid-feedback">Please enter a valid brand name.</div>
+                            </div>
+
+                            <!-- Price -->
+                            <div class="mb-3">
+                                <label for="componentPrice" class="form-label">
+                                    <i class="bi bi-currency-dollar"></i> Price (USD)
+                                </label>
+                                <input type="number" class="form-control" id="componentPrice" placeholder="e.g., 599.99"
+                                    min="0" step="0.01">
+                                <div class="invalid-feedback">Please enter a valid price.</div>
+                            </div>
+
+                            <!-- Release Date -->
+                            <div class="mb-3">
+                                <label for="releaseDate" class="form-label">
+                                    <i class="bi bi-calendar"></i> Release Date
+                                </label>
+                                <input type="date" class="form-control" id="releaseDate">
+                                <div class="invalid-feedback">Please select a release date.</div>
+                            </div>
+
+                            <!-- Specifications -->
+                            <div class="mb-3">
+                                <label for="componentSpecs" class="form-label">
+                                    <i class="bi bi-list-check"></i> Key Specifications
+                                </label>
+                                <textarea class="form-control" id="componentSpecs" rows="4"
+                                    placeholder="Enter key specs like cores, clock speed, memory, etc."
+                                    minlength="10"></textarea>
+                                <div class="form-text">Minimum 10 characters</div>
+                                <div class="invalid-feedback">Please provide specifications (min 10 chars).</div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <label for="userEmail" class="form-label">
+                                    <i class="bi bi-envelope"></i> Your Email *
+                                </label>
+                                <input type="email" class="form-control" id="userEmail"
+                                    placeholder="your.email@example.com" required>
+                                <div class="form-text">We'll notify you when your suggestion is reviewed.</div>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+
+                            <!-- Submit Buttons -->
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button type="reset" class="btn btn-outline-secondary">
+                                    <i class="bi bi-x-circle"></i> Clear
+                                </button>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="bi bi-send"></i> Submit Suggestion
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Success Message (Hidden by default) -->
+                        <div id="successMessage" class="alert alert-success mt-4 d-none">
+                            <h5><i class="bi bi-check-circle"></i> Thank you!</h5>
+                            <p>Your component suggestion has been submitted successfully. We'll review it and get back
+                                to you soon.</p>
+                            <button class="btn btn-outline-success btn-sm" id="newSuggestion">Submit Another</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="bi bi-cpu"></i> PC Builder</h5>
+                    <p class="small">Build your custom PC with ease.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li class="list-inline-item"><a href="builder.html" class="text-white text-decoration-none">Builder</a></li>
+                        <li class="list-inline-item"><a href="suggest.html" class="text-white text-decoration-none">Suggest Component</a></li>
+                        <li class="list-inline-item"><a href="author.html" class="text-white text-decoration-none">About Author</a></li>
+                        <li class="list-inline-item"><a href="assets/other/doc.pdf" target="_blank" class="text-white text-decoration-none">Documentation</a></li>
+                    </ul>
+                    <p class="small" id="footer-text">&copy; 2026 PC Builder. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

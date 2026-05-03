@@ -1,0 +1,2116 @@
+[
+    {
+        "id": "cpu_1",
+        "name": "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
+        "specs": {
+            "cores": 6,
+            "threads": 12,
+            "base_clock": "3.7 GHz",
+            "boost_clock": "4.6 GHz",
+            "tdp": "65W",
+            "socket": "AM4",
+            "cache": {
+                "l1": "384 KB",
+                "l2": "3 MB",
+                "l3": "32 MB"
+            }
+        },
+        "price": 159.99,
+        "image_path": "assets/images/cpu_1.png",
+        "category": "processor",
+        "brand": "AMD",
+        "release_date": "2020-11-05",
+        "max_temperature": "95°C",
+        "integrated_graphics": false
+    },
+    {
+        "id": "cpu_2",
+        "name": "Intel Core i5-12400F 2.5 GHz 6-Core Processor",
+        "specs": {
+            "cores": 6,
+            "threads": 12,
+            "base_clock": "2.5 GHz",
+            "boost_clock": "4.4 GHz",
+            "tdp": "65W",
+            "socket": "LGA1700",
+            "cache": {
+                "l1": "480 KB",
+                "l2": "7.5 MB",
+                "l3": "18 MB"
+            }
+        },
+        "price": 149.99,
+        "image_path": "assets/images/cpu_2.png",
+        "category": "processor",
+        "brand": "Intel",
+        "release_date": "2022-01-04",
+        "max_temperature": "100°C",
+        "integrated_graphics": false
+    },
+    {
+        "id": "cpu_3",
+        "name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor",
+        "specs": {
+            "cores": 8,
+            "threads": 16,
+            "base_clock": "4.2 GHz",
+            "boost_clock": "5.0 GHz",
+            "tdp": "120W",
+            "socket": "AM5",
+            "cache": {
+                "l1": "512 KB",
+                "l2": "8 MB",
+                "l3": "96 MB"
+            }
+        },
+        "price": 399.99,
+        "image_path": "assets/images/cpu_3.png",
+        "category": "processor",
+        "brand": "AMD",
+        "release_date": "2023-04-06",
+        "max_temperature": "89°C",
+        "integrated_graphics": true
+    },
+    {
+        "id": "cpu_4",
+        "name": "Intel Core i7-13700K 3.4 GHz 16-Core Processor",
+        "specs": {
+            "cores": 16,
+            "threads": 24,
+            "base_clock": "3.4 GHz",
+            "boost_clock": "5.4 GHz",
+            "tdp": "125W",
+            "socket": "LGA1700",
+            "cache": {
+                "l1": "1.4 MB",
+                "l2": "24 MB",
+                "l3": "30 MB"
+            }
+        },
+        "price": 409.99,
+        "image_path": "assets/images/cpu_4.png",
+        "category": "processor",
+        "brand": "Intel",
+        "release_date": "2022-10-20",
+        "max_temperature": "100°C",
+        "integrated_graphics": true
+    },
+    {
+        "id": "cpu_5",
+        "name": "AMD Ryzen 9 7950X 4.5 GHz 16-Core Processor",
+        "specs": {
+            "cores": 16,
+            "threads": 32,
+            "base_clock": "4.5 GHz",
+            "boost_clock": "5.7 GHz",
+            "tdp": "170W",
+            "socket": "AM5",
+            "cache": {
+                "l1": "1 MB",
+                "l2": "16 MB",
+                "l3": "64 MB"
+            }
+        },
+        "price": 599.99,
+        "image_path": "assets/images/cpu_5.png",
+        "category": "processor",
+        "brand": "AMD",
+        "release_date": "2022-09-27",
+        "max_temperature": "95°C",
+        "integrated_graphics": true
+    },
+    {
+        "id": "cpu_6",
+        "name": "Intel Core i9-14900K 3.2 GHz 24-Core Processor",
+        "specs": {
+            "cores": 24,
+            "threads": 32,
+            "base_clock": "3.2 GHz",
+            "boost_clock": "6.0 GHz",
+            "tdp": "125W",
+            "socket": "LGA1700",
+            "cache": {
+                "l1": "2.1 MB",
+                "l2": "32 MB",
+                "l3": "36 MB"
+            }
+        },
+        "price": 589.99,
+        "image_path": "assets/images/cpu_6.png",
+        "category": "processor",
+        "brand": "Intel",
+        "release_date": "2023-10-17",
+        "max_temperature": "100°C",
+        "integrated_graphics": true
+    },
+    {
+        "id": "cpu_7",
+        "name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+        "specs": {
+            "cores": 6,
+            "threads": 12,
+            "base_clock": "4.7 GHz",
+            "boost_clock": "5.3 GHz",
+            "tdp": "105W",
+            "socket": "AM5",
+            "cache": {
+                "l1": "384 KB",
+                "l2": "6 MB",
+                "l3": "32 MB"
+            }
+        },
+        "price": 229.99,
+        "image_path": "assets/images/cpu_7.png",
+        "category": "processor",
+        "brand": "AMD",
+        "release_date": "2022-09-27",
+        "max_temperature": "95°C",
+        "integrated_graphics": true
+    },
+    {
+        "id": "cpu_8",
+        "name": "Intel Core i3-12100F 3.3 GHz 4-Core Processor",
+        "specs": {
+            "cores": 4,
+            "threads": 8,
+            "base_clock": "3.3 GHz",
+            "boost_clock": "4.3 GHz",
+            "tdp": "58W",
+            "socket": "LGA1700",
+            "cache": {
+                "l1": "320 KB",
+                "l2": "5 MB",
+                "l3": "12 MB"
+            }
+        },
+        "price": 99.99,
+        "image_path": "assets/images/cpu_8.png",
+        "category": "processor",
+        "brand": "Intel",
+        "release_date": "2022-01-04",
+        "max_temperature": "100°C",
+        "integrated_graphics": false
+    },
+    {
+        "id": "cpu_9",
+        "name": "AMD Ryzen 7 5800X3D 3.4 GHz 8-Core Processor",
+        "specs": {
+            "cores": 8,
+            "threads": 16,
+            "base_clock": "3.4 GHz",
+            "boost_clock": "4.5 GHz",
+            "tdp": "105W",
+            "socket": "AM4",
+            "cache": {
+                "l1": "512 KB",
+                "l2": "4 MB",
+                "l3": "96 MB"
+            }
+        },
+        "price": 329.99,
+        "image_path": "assets/images/cpu_9.png",
+        "category": "processor",
+        "brand": "AMD",
+        "release_date": "2022-04-20",
+        "max_temperature": "90°C",
+        "integrated_graphics": false
+    },
+    {
+        "id": "cpu_10",
+        "name": "Intel Core i5-13400F 2.5 GHz 10-Core Processor",
+        "specs": {
+            "cores": 10,
+            "threads": 16,
+            "base_clock": "2.5 GHz",
+            "boost_clock": "4.6 GHz",
+            "tdp": "65W",
+            "socket": "LGA1700",
+            "cache": {
+                "l1": "800 KB",
+                "l2": "9.5 MB",
+                "l3": "20 MB"
+            }
+        },
+        "price": 209.99,
+        "image_path": "assets/images/cpu_10.png",
+        "category": "processor",
+        "brand": "Intel",
+        "release_date": "2023-01-03",
+        "max_temperature": "100°C",
+        "integrated_graphics": false
+    },
+    {
+        "id": "gpu_1",
+        "name": "NVIDIA GeForce RTX 3060 Ti 8 GB",
+        "specs": {
+            "cuda_cores": 4864,
+            "base_clock": "1410 MHz",
+            "boost_clock": "1665 MHz",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "448 GB/s",
+            "tdp": "200W"
+        },
+        "price": 399.99,
+        "image_path": "assets/images/gpu_1.png",
+        "category": "graphics_card",
+        "brand": "NVIDIA",
+        "release_date": "2020-12-02"
+    },
+    {
+        "id": "gpu_2",
+        "name": "AMD Radeon RX 6700 XT 12 GB",
+        "specs": {
+            "stream_processors": 2560,
+            "base_clock": "2321 MHz",
+            "boost_clock": "2581 MHz",
+            "memory_size": "12 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "384 GB/s",
+            "tdp": "230W"
+        },
+        "price": 349.99,
+        "image_path": "assets/images/gpu_2.png",
+        "category": "graphics_card",
+        "brand": "AMD",
+        "release_date": "2021-03-18"
+    },
+    {
+        "id": "gpu_3",
+        "name": "NVIDIA GeForce RTX 4090 24 GB",
+        "specs": {
+            "cuda_cores": 16384,
+            "base_clock": "2235 MHz",
+            "boost_clock": "2520 MHz",
+            "memory_size": "24 GB",
+            "memory_type": "GDDR6X",
+            "memory_bandwidth": "1008 GB/s",
+            "tdp": "450W"
+        },
+        "price": 1599.99,
+        "image_path": "assets/images/gpu_3.png",
+        "category": "graphics_card",
+        "brand": "NVIDIA",
+        "release_date": "2022-10-12"
+    },
+    {
+        "id": "gpu_4",
+        "name": "AMD Radeon RX 7900 XTX 24 GB",
+        "specs": {
+            "stream_processors": 6144,
+            "base_clock": "1855 MHz",
+            "boost_clock": "2499 MHz",
+            "memory_size": "24 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "960 GB/s",
+            "tdp": "355W"
+        },
+        "price": 999.99,
+        "image_path": "assets/images/gpu_4.png",
+        "category": "graphics_card",
+        "brand": "AMD",
+        "release_date": "2022-12-13"
+    },
+    {
+        "id": "gpu_5",
+        "name": "NVIDIA GeForce RTX 4070 12 GB",
+        "specs": {
+            "cuda_cores": 5888,
+            "base_clock": "1920 MHz",
+            "boost_clock": "2475 MHz",
+            "memory_size": "12 GB",
+            "memory_type": "GDDR6X",
+            "memory_bandwidth": "504 GB/s",
+            "tdp": "200W"
+        },
+        "price": 599.99,
+        "image_path": "assets/images/gpu_5.png",
+        "category": "graphics_card",
+        "brand": "NVIDIA",
+        "release_date": "2023-04-13"
+    },
+    {
+        "id": "gpu_6",
+        "name": "AMD Radeon RX 7600 8 GB",
+        "specs": {
+            "stream_processors": 2048,
+            "base_clock": "1720 MHz",
+            "boost_clock": "2655 MHz",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "288 GB/s",
+            "tdp": "165W"
+        },
+        "price": 269.99,
+        "image_path": "assets/images/gpu_6.png",
+        "category": "graphics_card",
+        "brand": "AMD",
+        "release_date": "2023-05-25"
+    },
+    {
+        "id": "gpu_7",
+        "name": "Intel Arc A770 16 GB",
+        "specs": {
+            "xe_cores": 32,
+            "base_clock": "2100 MHz",
+            "boost_clock": "2400 MHz",
+            "memory_size": "16 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "560 GB/s",
+            "tdp": "225W"
+        },
+        "price": 329.99,
+        "image_path": "assets/images/gpu_7.png",
+        "category": "graphics_card",
+        "brand": "Intel",
+        "release_date": "2022-10-12"
+    },
+    {
+        "id": "gpu_8",
+        "name": "NVIDIA GeForce RTX 3050 8 GB",
+        "specs": {
+            "cuda_cores": 2560,
+            "base_clock": "1552 MHz",
+            "boost_clock": "1777 MHz",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "224 GB/s",
+            "tdp": "130W"
+        },
+        "price": 249.99,
+        "image_path": "assets/images/gpu_8.png",
+        "category": "graphics_card",
+        "brand": "NVIDIA",
+        "release_date": "2022-01-27"
+    },
+    {
+        "id": "gpu_9",
+        "name": "AMD Radeon RX 6800 16 GB",
+        "specs": {
+            "stream_processors": 3840,
+            "base_clock": "1700 MHz",
+            "boost_clock": "2105 MHz",
+            "memory_size": "16 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "512 GB/s",
+            "tdp": "250W"
+        },
+        "price": 429.99,
+        "image_path": "assets/images/gpu_9.png",
+        "category": "graphics_card",
+        "brand": "AMD",
+        "release_date": "2020-11-18"
+    },
+    {
+        "id": "gpu_10",
+        "name": "NVIDIA GeForce RTX 4060 Ti 8 GB",
+        "specs": {
+            "cuda_cores": 4352,
+            "base_clock": "2310 MHz",
+            "boost_clock": "2535 MHz",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6",
+            "memory_bandwidth": "288 GB/s",
+            "tdp": "160W"
+        },
+        "price": 399.99,
+        "image_path": "assets/images/gpu_10.png",
+        "category": "graphics_card",
+        "brand": "NVIDIA",
+        "release_date": "2023-05-24"
+    },
+    {
+        "id": "motherboard_1",
+        "name": "ASUS ROG Strix B550-F Gaming WiFi II",
+        "specs": {
+            "socket": "AM4",
+            "chipset": "B550",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "128 GB",
+            "memory_type": "DDR4",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 3
+            },
+            "storage_connectors": {
+                "sata": 6,
+                "m2": 2
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 189.99,
+        "image_path": "assets/images/motherboard_1.png",
+        "category": "motherboard",
+        "brand": "ASUS",
+        "release_date": "2021-10-01"
+    },
+    {
+        "id": "motherboard_2",
+        "name": "MSI MAG B650 TOMAHAWK WIFI",
+        "specs": {
+            "socket": "AM5",
+            "chipset": "B650",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "192 GB",
+            "memory_type": "DDR5",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 6,
+                "m2": 3
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 219.99,
+        "image_path": "assets/images/motherboard_2.png",
+        "category": "motherboard",
+        "brand": "MSI",
+        "release_date": "2022-10-10"
+    },
+    {
+        "id": "motherboard_3",
+        "name": "GIGABYTE Z790 AORUS ELITE AX",
+        "specs": {
+            "socket": "LGA1700",
+            "chipset": "Z790",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "192 GB",
+            "memory_type": "DDR5",
+            "pci_express_slots": {
+                "x16": 3,
+                "x1": 0
+            },
+            "storage_connectors": {
+                "sata": 6,
+                "m2": 4
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 259.99,
+        "image_path": "assets/images/motherboard_3.png",
+        "category": "motherboard",
+        "brand": "GIGABYTE",
+        "release_date": "2022-10-20"
+    },
+    {
+        "id": "motherboard_4",
+        "name": "MSI PRO B660M-A WIFI DDR4",
+        "specs": {
+            "socket": "LGA1700",
+            "chipset": "B660",
+            "form_factor": "Micro ATX",
+            "memory_slots": 4,
+            "max_memory": "128 GB",
+            "memory_type": "DDR4",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 4,
+                "m2": 2
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6"
+            }
+        },
+        "price": 149.99,
+        "image_path": "assets/images/motherboard_4.png",
+        "category": "motherboard",
+        "brand": "MSI",
+        "release_date": "2022-01-04"
+    },
+    {
+        "id": "motherboard_5",
+        "name": "ASRock X670E Taichi",
+        "specs": {
+            "socket": "AM5",
+            "chipset": "X670E",
+            "form_factor": "E-ATX",
+            "memory_slots": 4,
+            "max_memory": "192 GB",
+            "memory_type": "DDR5",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 0
+            },
+            "storage_connectors": {
+                "sata": 8,
+                "m2": 4
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 499.99,
+        "image_path": "assets/images/motherboard_5.png",
+        "category": "motherboard",
+        "brand": "ASRock",
+        "release_date": "2022-09-27"
+    },
+    {
+        "id": "motherboard_6",
+        "name": "ASUS TUF GAMING X570-PLUS (Wi-Fi)",
+        "specs": {
+            "socket": "AM4",
+            "chipset": "X570",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "128 GB",
+            "memory_type": "DDR4",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 2
+            },
+            "storage_connectors": {
+                "sata": 8,
+                "m2": 2
+            },
+            "networking": {
+                "ethernet_speed": "1 Gbps",
+                "wifi_standard": "Wi-Fi 5"
+            }
+        },
+        "price": 199.99,
+        "image_path": "assets/images/motherboard_6.png",
+        "category": "motherboard",
+        "brand": "ASUS",
+        "release_date": "2019-07-07"
+    },
+    {
+        "id": "motherboard_7",
+        "name": "MSI MPG Z690 EDGE WIFI DDR4",
+        "specs": {
+            "socket": "LGA1700",
+            "chipset": "Z690",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "128 GB",
+            "memory_type": "DDR4",
+            "pci_express_slots": {
+                "x16": 3,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 6,
+                "m2": 4
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6"
+            }
+        },
+        "price": 279.99,
+        "image_path": "assets/images/motherboard_7.png",
+        "category": "motherboard",
+        "brand": "MSI",
+        "release_date": "2021-11-04"
+    },
+    {
+        "id": "motherboard_8",
+        "name": "GIGABYTE B550M DS3H",
+        "specs": {
+            "socket": "AM4",
+            "chipset": "B550",
+            "form_factor": "Micro ATX",
+            "memory_slots": 4,
+            "max_memory": "128 GB",
+            "memory_type": "DDR4",
+            "pci_express_slots": {
+                "x16": 2,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 4,
+                "m2": 2
+            },
+            "networking": {
+                "ethernet_speed": "1 Gbps",
+                "wifi_standard": "None"
+            }
+        },
+        "price": 109.99,
+        "image_path": "assets/images/motherboard_8.png",
+        "category": "motherboard",
+        "brand": "GIGABYTE",
+        "release_date": "2020-06-16"
+    },
+    {
+        "id": "motherboard_9",
+        "name": "ASUS Prime Z790-A WIFI",
+        "specs": {
+            "socket": "LGA1700",
+            "chipset": "Z790",
+            "form_factor": "ATX",
+            "memory_slots": 4,
+            "max_memory": "192 GB",
+            "memory_type": "DDR5",
+            "pci_express_slots": {
+                "x16": 3,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 4,
+                "m2": 4
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 299.99,
+        "image_path": "assets/images/motherboard_9.png",
+        "category": "motherboard",
+        "brand": "ASUS",
+        "release_date": "2022-10-20"
+    },
+    {
+        "id": "motherboard_10",
+        "name": "ASRock B650M Pro RS WiFi",
+        "specs": {
+            "socket": "AM5",
+            "chipset": "B650",
+            "form_factor": "Micro ATX",
+            "memory_slots": 4,
+            "max_memory": "192 GB",
+            "memory_type": "DDR5",
+            "pci_express_slots": {
+                "x16": 1,
+                "x1": 1
+            },
+            "storage_connectors": {
+                "sata": 4,
+                "m2": 3
+            },
+            "networking": {
+                "ethernet_speed": "2.5 Gbps",
+                "wifi_standard": "Wi-Fi 6E"
+            }
+        },
+        "price": 149.99,
+        "image_path": "assets/images/motherboard_10.png",
+        "category": "motherboard",
+        "brand": "ASRock",
+        "release_date": "2023-05-15"
+    },
+    {
+        "id": "ram_1",
+        "name": "Corsair Vengeance LPX 16 GB (2 x 8 GB)",
+        "specs": {
+            "capacity": "16 GB",
+            "modules": "2 x 8 GB",
+            "type": "DDR4",
+            "speed": "3200 MHz",
+            "cas_latency": 16,
+            "voltage": "1.35V",
+            "color": "Black",
+            "rgb": false
+        },
+        "price": 44.99,
+        "image_path": "assets/images/ram_1.png",
+        "category": "memory",
+        "brand": "Corsair",
+        "release_date": "2015-08-01"
+    },
+    {
+        "id": "ram_2",
+        "name": "G.Skill Trident Z5 Neo RGB 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR5",
+            "speed": "6000 MHz",
+            "cas_latency": 30,
+            "voltage": "1.35V",
+            "color": "Black",
+            "rgb": true
+        },
+        "price": 119.99,
+        "image_path": "assets/images/ram_2.png",
+        "category": "memory",
+        "brand": "G.Skill",
+        "release_date": "2022-09-01"
+    },
+    {
+        "id": "ram_3",
+        "name": "Crucial Pro 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR5",
+            "speed": "5600 MHz",
+            "cas_latency": 46,
+            "voltage": "1.10V",
+            "color": "Black",
+            "rgb": false
+        },
+        "price": 94.99,
+        "image_path": "assets/images/ram_3.png",
+        "category": "memory",
+        "brand": "Crucial",
+        "release_date": "2023-05-16"
+    },
+    {
+        "id": "ram_4",
+        "name": "Kingston FURY Beast 16 GB (2 x 8 GB)",
+        "specs": {
+            "capacity": "16 GB",
+            "modules": "2 x 8 GB",
+            "type": "DDR4",
+            "speed": "3600 MHz",
+            "cas_latency": 17,
+            "voltage": "1.35V",
+            "color": "Black",
+            "rgb": false
+        },
+        "price": 49.99,
+        "image_path": "assets/images/ram_4.png",
+        "category": "memory",
+        "brand": "Kingston",
+        "release_date": "2021-07-19"
+    },
+    {
+        "id": "ram_5",
+        "name": "TEAMGROUP T-Force Vulcan Z 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR4",
+            "speed": "3200 MHz",
+            "cas_latency": 16,
+            "voltage": "1.35V",
+            "color": "Gray",
+            "rgb": false
+        },
+        "price": 62.99,
+        "image_path": "assets/images/ram_5.png",
+        "category": "memory",
+        "brand": "TEAMGROUP",
+        "release_date": "2019-05-15"
+    },
+    {
+        "id": "ram_6",
+        "name": "Corsair Dominator Platinum RGB 64 GB (2 x 32 GB)",
+        "specs": {
+            "capacity": "64 GB",
+            "modules": "2 x 32 GB",
+            "type": "DDR5",
+            "speed": "6000 MHz",
+            "cas_latency": 40,
+            "voltage": "1.35V",
+            "color": "Black",
+            "rgb": true
+        },
+        "price": 249.99,
+        "image_path": "assets/images/ram_6.png",
+        "category": "memory",
+        "brand": "Corsair",
+        "release_date": "2022-11-01"
+    },
+    {
+        "id": "ram_7",
+        "name": "G.Skill Ripjaws V 16 GB (2 x 8 GB)",
+        "specs": {
+            "capacity": "16 GB",
+            "modules": "2 x 8 GB",
+            "type": "DDR4",
+            "speed": "3600 MHz",
+            "cas_latency": 16,
+            "voltage": "1.35V",
+            "color": "Red",
+            "rgb": false
+        },
+        "price": 47.99,
+        "image_path": "assets/images/ram_7.png",
+        "category": "memory",
+        "brand": "G.Skill",
+        "release_date": "2015-10-01"
+    },
+    {
+        "id": "ram_8",
+        "name": "Patriot Viper Venom 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR5",
+            "speed": "6200 MHz",
+            "cas_latency": 40,
+            "voltage": "1.35V",
+            "color": "Black/Silver",
+            "rgb": false
+        },
+        "price": 104.99,
+        "image_path": "assets/images/ram_8.png",
+        "category": "memory",
+        "brand": "Patriot",
+        "release_date": "2022-04-20"
+    },
+    {
+        "id": "ram_9",
+        "name": "Silicon Power VALUE GAMING 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR4",
+            "speed": "3200 MHz",
+            "cas_latency": 16,
+            "voltage": "1.35V",
+            "color": "Black",
+            "rgb": false
+        },
+        "price": 55.99,
+        "image_path": "assets/images/ram_9.png",
+        "category": "memory",
+        "brand": "Silicon Power",
+        "release_date": "2021-02-10"
+    },
+    {
+        "id": "ram_10",
+        "name": "Kingston FURY Renegade 32 GB (2 x 16 GB)",
+        "specs": {
+            "capacity": "32 GB",
+            "modules": "2 x 16 GB",
+            "type": "DDR5",
+            "speed": "6400 MHz",
+            "cas_latency": 32,
+            "voltage": "1.40V",
+            "color": "Silver/Black",
+            "rgb": true
+        },
+        "price": 139.99,
+        "image_path": "assets/images/ram_10.png",
+        "category": "memory",
+        "brand": "Kingston",
+        "release_date": "2022-07-25"
+    },
+    {
+        "id": "psu_1",
+        "name": "Corsair RM750x 750W",
+        "specs": {
+            "wattage": "750W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 129.99,
+        "image_path": "assets/images/psu_1.png",
+        "category": "power_supply",
+        "brand": "Corsair",
+        "release_date": "2021-04-15"
+    },
+    {
+        "id": "psu_2",
+        "name": "EVGA SuperNOVA 850 G6 850W",
+        "specs": {
+            "wattage": "850W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 149.99,
+        "image_path": "assets/images/psu_2.png",
+        "category": "power_supply",
+        "brand": "EVGA",
+        "release_date": "2021-07-20"
+    },
+    {
+        "id": "psu_3",
+        "name": "Seasonic FOCUS GX-650 650W",
+        "specs": {
+            "wattage": "650W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 109.99,
+        "image_path": "assets/images/psu_3.png",
+        "category": "power_supply",
+        "brand": "Seasonic",
+        "release_date": "2019-09-01"
+    },
+    {
+        "id": "psu_4",
+        "name": "Thermaltake Smart 500W",
+        "specs": {
+            "wattage": "500W",
+            "efficiency_rating": "80+ White",
+            "modularity": "Non-Modular",
+            "form_factor": "ATX"
+        },
+        "price": 39.99,
+        "image_path": "assets/images/psu_4.png",
+        "category": "power_supply",
+        "brand": "Thermaltake",
+        "release_date": "2017-12-01"
+    },
+    {
+        "id": "psu_5",
+        "name": "Cooler Master MWE Gold 850 V2 850W",
+        "specs": {
+            "wattage": "850W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 119.99,
+        "image_path": "assets/images/psu_5.png",
+        "category": "power_supply",
+        "brand": "Cooler Master",
+        "release_date": "2020-11-10"
+    },
+    {
+        "id": "psu_6",
+        "name": "be quiet! Dark Power 13 1000W",
+        "specs": {
+            "wattage": "1000W",
+            "efficiency_rating": "80+ Titanium",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 289.99,
+        "image_path": "assets/images/psu_6.png",
+        "category": "power_supply",
+        "brand": "be quiet!",
+        "release_date": "2023-01-24"
+    },
+    {
+        "id": "psu_7",
+        "name": "Corsair CV550 550W",
+        "specs": {
+            "wattage": "550W",
+            "efficiency_rating": "80+ Bronze",
+            "modularity": "Non-Modular",
+            "form_factor": "ATX"
+        },
+        "price": 54.99,
+        "image_path": "assets/images/psu_7.png",
+        "category": "power_supply",
+        "brand": "Corsair",
+        "release_date": "2020-01-09"
+    },
+    {
+        "id": "psu_8",
+        "name": "MSI MPG A1000G 1000W",
+        "specs": {
+            "wattage": "1000W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 199.99,
+        "image_path": "assets/images/psu_8.png",
+        "category": "power_supply",
+        "brand": "MSI",
+        "release_date": "2022-02-15"
+    },
+    {
+        "id": "psu_9",
+        "name": "ASUS ROG Thor 1200W",
+        "specs": {
+            "wattage": "1200W",
+            "efficiency_rating": "80+ Platinum",
+            "modularity": "Fully Modular",
+            "form_factor": "ATX"
+        },
+        "price": 329.99,
+        "image_path": "assets/images/psu_9.png",
+        "category": "power_supply",
+        "brand": "ASUS",
+        "release_date": "2018-11-01"
+    },
+    {
+        "id": "psu_10",
+        "name": "FSP Dagger Pro 650W",
+        "specs": {
+            "wattage": "650W",
+            "efficiency_rating": "80+ Gold",
+            "modularity": "Fully Modular",
+            "form_factor": "SFX"
+        },
+        "price": 114.99,
+        "image_path": "assets/images/psu_10.png",
+        "category": "power_supply",
+        "brand": "FSP",
+        "release_date": "2019-06-05"
+    },
+    {
+        "id": "storage_1",
+        "name": "Samsung 970 Evo Plus 1 TB",
+        "specs": {
+            "capacity": "1 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 3.0 x4",
+            "sequential_read": "3500 MB/s",
+            "sequential_write": "3300 MB/s"
+        },
+        "price": 69.99,
+        "image_path": "assets/images/storage_1.png",
+        "category": "storage",
+        "brand": "Samsung",
+        "release_date": "2019-01-22"
+    },
+    {
+        "id": "storage_2",
+        "name": "Western Digital Black SN850X 2 TB",
+        "specs": {
+            "capacity": "2 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 4.0 x4",
+            "sequential_read": "7300 MB/s",
+            "sequential_write": "6600 MB/s"
+        },
+        "price": 159.99,
+        "image_path": "assets/images/storage_2.png",
+        "category": "storage",
+        "brand": "Western Digital",
+        "release_date": "2022-07-15"
+    },
+    {
+        "id": "storage_3",
+        "name": "Seagate Barracuda Compute 2 TB",
+        "specs": {
+            "capacity": "2 TB",
+            "type": "HDD",
+            "form_factor": "3.5\"",
+            "interface": "SATA 6 Gb/s",
+            "rpm": "7200 RPM",
+            "cache": "256 MB"
+        },
+        "price": 54.99,
+        "image_path": "assets/images/storage_3.png",
+        "category": "storage",
+        "brand": "Seagate",
+        "release_date": "2018-03-01"
+    },
+    {
+        "id": "storage_4",
+        "name": "Crucial MX500 1 TB",
+        "specs": {
+            "capacity": "1 TB",
+            "type": "SATA SSD",
+            "form_factor": "2.5\"",
+            "interface": "SATA 6 Gb/s",
+            "sequential_read": "540 MB/s",
+            "sequential_write": "500 MB/s"
+        },
+        "price": 52.99,
+        "image_path": "assets/images/storage_4.png",
+        "category": "storage",
+        "brand": "Crucial",
+        "release_date": "2017-12-19"
+    },
+    {
+        "id": "storage_5",
+        "name": "Kingston NV2 1 TB",
+        "specs": {
+            "capacity": "1 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 4.0 x4",
+            "sequential_read": "3500 MB/s",
+            "sequential_write": "2100 MB/s"
+        },
+        "price": 42.99,
+        "image_path": "assets/images/storage_5.png",
+        "category": "storage",
+        "brand": "Kingston",
+        "release_date": "2022-09-05"
+    },
+    {
+        "id": "storage_6",
+        "name": "Samsung 990 Pro 2 TB",
+        "specs": {
+            "capacity": "2 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 4.0 x4",
+            "sequential_read": "7450 MB/s",
+            "sequential_write": "6900 MB/s"
+        },
+        "price": 189.99,
+        "image_path": "assets/images/storage_6.png",
+        "category": "storage",
+        "brand": "Samsung",
+        "release_date": "2022-10-18"
+    },
+    {
+        "id": "storage_7",
+        "name": "Western Digital Blue 1 TB",
+        "specs": {
+            "capacity": "1 TB",
+            "type": "HDD",
+            "form_factor": "3.5\"",
+            "interface": "SATA 6 Gb/s",
+            "rpm": "7200 RPM",
+            "cache": "64 MB"
+        },
+        "price": 39.99,
+        "image_path": "assets/images/storage_7.png",
+        "category": "storage",
+        "brand": "Western Digital",
+        "release_date": "2015-09-01"
+    },
+    {
+        "id": "storage_8",
+        "name": "Sabrent Rocket 4.0 1 TB",
+        "specs": {
+            "capacity": "1 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 4.0 x4",
+            "sequential_read": "5000 MB/s",
+            "sequential_write": "4400 MB/s"
+        },
+        "price": 79.99,
+        "image_path": "assets/images/storage_8.png",
+        "category": "storage",
+        "brand": "Sabrent",
+        "release_date": "2019-07-01"
+    },
+    {
+        "id": "storage_9",
+        "name": "Seagate FireCuda 530 2 TB",
+        "specs": {
+            "capacity": "2 TB",
+            "type": "NVMe SSD",
+            "form_factor": "M.2-2280",
+            "interface": "PCIe 4.0 x4",
+            "sequential_read": "7300 MB/s",
+            "sequential_write": "6900 MB/s"
+        },
+        "price": 169.99,
+        "image_path": "assets/images/storage_9.png",
+        "category": "storage",
+        "brand": "Seagate",
+        "release_date": "2021-06-24"
+    },
+    {
+        "id": "storage_10",
+        "name": "TEAMGROUP T-Force Vulcan Z 512 GB",
+        "specs": {
+            "capacity": "512 GB",
+            "type": "SATA SSD",
+            "form_factor": "2.5\"",
+            "interface": "SATA 6 Gb/s",
+            "sequential_read": "540 MB/s",
+            "sequential_write": "470 MB/s"
+        },
+        "price": 27.99,
+        "image_path": "assets/images/storage_10.png",
+        "category": "storage",
+        "brand": "TEAMGROUP",
+        "release_date": "2022-05-15"
+    },
+    {
+        "id": "monitor_1",
+        "name": "Dell S2721DGF",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "165 Hz",
+            "panel_type": "IPS",
+            "response_time": "1 ms",
+            "color_gamut": "98% DCI-P3",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {
+                    "usb_3_0": 4
+                }
+            }
+        },
+        "price": 329.99,
+        "image_path": "assets/images/monitor_1.png",
+        "category": "monitor",
+        "brand": "Dell",
+        "release_date": "2020-07-15"
+    },
+    {
+        "id": "monitor_2",
+        "name": "LG 27GL83A-B",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "144 Hz",
+            "panel_type": "IPS",
+            "response_time": "1 ms",
+            "color_gamut": "99% sRGB",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {}
+            }
+        },
+        "price": 299.99,
+        "image_path": "assets/images/monitor_2.png",
+        "category": "monitor",
+        "brand": "LG",
+        "release_date": "2019-09-01"
+    },
+    {
+        "id": "monitor_3",
+        "name": "ASUS TUF Gaming VG27AQ",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "165 Hz",
+            "panel_type": "IPS",
+            "response_time": "1 ms",
+            "color_gamut": "99% sRGB",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {}
+            }
+        },
+        "price": 309.99,
+        "image_path": "assets/images/monitor_3.png",
+        "category": "monitor",
+        "brand": "ASUS",
+        "release_date": "2019-08-10"
+    },
+    {
+        "id": "monitor_4",
+        "name": "Samsung Odyssey G7",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "240 Hz",
+            "panel_type": "VA",
+            "response_time": "1 ms",
+            "color_gamut": "95% DCI-P3",
+            "connectivity": {
+                "hdmi": 1,
+                "displayport": 2,
+                "usb_ports": {
+                    "usb_3_0": 2
+                }
+            }
+        },
+        "price": 549.99,
+        "image_path": "assets/images/monitor_4.png",
+        "category": "monitor",
+        "brand": "Samsung",
+        "release_date": "2020-06-01"
+    },
+    {
+        "id": "monitor_5",
+        "name": "Gigabyte M27Q",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "170 Hz",
+            "panel_type": "IPS",
+            "response_time": "0.5 ms",
+            "color_gamut": "92% DCI-P3",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {
+                    "usb_3_0": 2,
+                    "usb_c": 1
+                }
+            }
+        },
+        "price": 319.99,
+        "image_path": "assets/images/monitor_5.png",
+        "category": "monitor",
+        "brand": "Gigabyte",
+        "release_date": "2020-09-25"
+    },
+    {
+        "id": "monitor_6",
+        "name": "Alienware AW3423DW",
+        "specs": {
+            "size": "34 inches",
+            "resolution": "3440x1440",
+            "refresh_rate": "175 Hz",
+            "panel_type": "QD-OLED",
+            "response_time": "0.1 ms",
+            "color_gamut": "99.3% DCI-P3",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {
+                    "usb_3_2": 4
+                }
+            }
+        },
+        "price": 1099.99,
+        "image_path": "assets/images/monitor_6.png",
+        "category": "monitor",
+        "brand": "Alienware",
+        "release_date": "2022-03-09"
+    },
+    {
+        "id": "monitor_7",
+        "name": "AOC CQ27G2",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "144 Hz",
+            "panel_type": "VA",
+            "response_time": "1 ms",
+            "color_gamut": "120% sRGB",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {}
+            }
+        },
+        "price": 249.99,
+        "image_path": "assets/images/monitor_7.png",
+        "category": "monitor",
+        "brand": "AOC",
+        "release_date": "2020-02-15"
+    },
+    {
+        "id": "monitor_8",
+        "name": "MSI Optix MAG274QRF-QD",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "2560x1440",
+            "refresh_rate": "165 Hz",
+            "panel_type": "IPS",
+            "response_time": "1 ms",
+            "color_gamut": "97% DCI-P3",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 1,
+                "usb_ports": {
+                    "usb_2_0": 2,
+                    "usb_c": 1
+                }
+            }
+        },
+        "price": 379.99,
+        "image_path": "assets/images/monitor_8.png",
+        "category": "monitor",
+        "brand": "MSI",
+        "release_date": "2020-11-20"
+    },
+    {
+        "id": "monitor_9",
+        "name": "Acer Predator XB273K",
+        "specs": {
+            "size": "27 inches",
+            "resolution": "3840x2160",
+            "refresh_rate": "144 Hz",
+            "panel_type": "IPS",
+            "response_time": "1 ms",
+            "color_gamut": "90% DCI-P3",
+            "connectivity": {
+                "hdmi": 2,
+                "displayport": 2,
+                "usb_ports": {
+                    "usb_3_0": 4
+                }
+            }
+        },
+        "price": 699.99,
+        "image_path": "assets/images/monitor_9.png",
+        "category": "monitor",
+        "brand": "Acer",
+        "release_date": "2019-04-10"
+    },
+    {
+        "id": "monitor_10",
+        "name": "BenQ ZOWIE XL2546K",
+        "specs": {
+            "size": "24.5 inches",
+            "resolution": "1920x1080",
+            "refresh_rate": "240 Hz",
+            "panel_type": "TN",
+            "response_time": "0.5 ms",
+            "color_gamut": "Standard",
+            "connectivity": {
+                "hdmi": 3,
+                "displayport": 1,
+                "usb_ports": {}
+            }
+        },
+        "price": 429.99,
+        "image_path": "assets/images/monitor_10.png",
+        "category": "monitor",
+        "brand": "BenQ",
+        "release_date": "2020-09-08"
+    },
+    {
+        "id": "mouse_1",
+        "name": "Logitech G Pro X Superlight",
+        "specs": {
+            "type": "Wireless Gaming Mouse",
+            "sensor": "HERO 25K",
+            "dpi": "100 - 25,600",
+            "buttons": 5,
+            "battery_life": "70 hours",
+            "weight": "63 grams",
+            "connectivity": [
+                "Wireless"
+            ]
+        },
+        "price": 149.99,
+        "image_path": "assets/images/mouse_1.png",
+        "category": "mouse",
+        "brand": "Logitech",
+        "release_date": "2020-12-03"
+    },
+    {
+        "id": "mouse_2",
+        "name": "Razer DeathAdder V2",
+        "specs": {
+            "type": "Wired Gaming Mouse",
+            "sensor": "Focus+",
+            "dpi": "100 - 20,000",
+            "buttons": 8,
+            "battery_life": "N/A",
+            "weight": "82 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 69.99,
+        "image_path": "assets/images/mouse_2.png",
+        "category": "mouse",
+        "brand": "Razer",
+        "release_date": "2020-01-14"
+    },
+    {
+        "id": "mouse_3",
+        "name": "Glorious Model O Wireless",
+        "specs": {
+            "type": "Wireless Gaming Mouse",
+            "sensor": "BAMF",
+            "dpi": "100 - 19,000",
+            "buttons": 6,
+            "battery_life": "71 hours",
+            "weight": "69 grams",
+            "connectivity": [
+                "Wireless",
+                "Wired"
+            ]
+        },
+        "price": 79.99,
+        "image_path": "assets/images/mouse_3.png",
+        "category": "mouse",
+        "brand": "Glorious",
+        "release_date": "2020-11-13"
+    },
+    {
+        "id": "mouse_4",
+        "name": "Logitech G502 HERO",
+        "specs": {
+            "type": "Wired Gaming Mouse",
+            "sensor": "HERO 25K",
+            "dpi": "100 - 25,600",
+            "buttons": 11,
+            "battery_life": "N/A",
+            "weight": "121 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 49.99,
+        "image_path": "assets/images/mouse_4.png",
+        "category": "mouse",
+        "brand": "Logitech",
+        "release_date": "2018-08-30"
+    },
+    {
+        "id": "mouse_5",
+        "name": "Razer Viper Ultimate",
+        "specs": {
+            "type": "Wireless Gaming Mouse",
+            "sensor": "Focus+",
+            "dpi": "100 - 20,000",
+            "buttons": 8,
+            "battery_life": "70 hours",
+            "weight": "74 grams",
+            "connectivity": [
+                "Wireless",
+                "Wired"
+            ]
+        },
+        "price": 129.99,
+        "image_path": "assets/images/mouse_5.png",
+        "category": "mouse",
+        "brand": "Razer",
+        "release_date": "2019-10-18"
+    },
+    {
+        "id": "mouse_6",
+        "name": "SteelSeries Rival 5",
+        "specs": {
+            "type": "Wired Gaming Mouse",
+            "sensor": "TrueMove Air",
+            "dpi": "100 - 18,000",
+            "buttons": 9,
+            "battery_life": "N/A",
+            "weight": "85 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 59.99,
+        "image_path": "assets/images/mouse_6.png",
+        "category": "mouse",
+        "brand": "SteelSeries",
+        "release_date": "2021-05-18"
+    },
+    {
+        "id": "mouse_7",
+        "name": "Corsair Scimitar RGB Elite",
+        "specs": {
+            "type": "MOBA/MMO Gaming Mouse",
+            "sensor": "PixArt PMW3391",
+            "dpi": "100 - 18,000",
+            "buttons": 17,
+            "battery_life": "N/A",
+            "weight": "122 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 79.99,
+        "image_path": "assets/images/mouse_7.png",
+        "category": "mouse",
+        "brand": "Corsair",
+        "release_date": "2020-01-07"
+    },
+    {
+        "id": "mouse_8",
+        "name": "HyperX Pulsefire Haste",
+        "specs": {
+            "type": "Wired Gaming Mouse",
+            "sensor": "PixArt PAW3335",
+            "dpi": "200 - 16,000",
+            "buttons": 6,
+            "battery_life": "N/A",
+            "weight": "59 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 49.99,
+        "image_path": "assets/images/mouse_8.png",
+        "category": "mouse",
+        "brand": "HyperX",
+        "release_date": "2020-12-07"
+    },
+    {
+        "id": "mouse_9",
+        "name": "Zowie EC2-C",
+        "specs": {
+            "type": "Esports Gaming Mouse",
+            "sensor": "PixArt 3360",
+            "dpi": "400 - 3200",
+            "buttons": 5,
+            "battery_life": "N/A",
+            "weight": "73 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 69.99,
+        "image_path": "assets/images/mouse_9.png",
+        "category": "mouse",
+        "brand": "Zowie",
+        "release_date": "2021-08-01"
+    },
+    {
+        "id": "mouse_10",
+        "name": "Endgame Gear XM1r",
+        "specs": {
+            "type": "Wired Gaming Mouse",
+            "sensor": "PixArt PAW3370",
+            "dpi": "50 - 19,000",
+            "buttons": 5,
+            "battery_life": "N/A",
+            "weight": "70 grams",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 59.99,
+        "image_path": "assets/images/mouse_10.png",
+        "category": "mouse",
+        "brand": "Endgame Gear",
+        "release_date": "2020-12-21"
+    },
+    {
+        "id": "keyboard_1",
+        "name": "Razer BlackWidow V3",
+        "specs": {
+            "type": "Mechanical Gaming Keyboard",
+            "switch_type": "Razer Green (Clicky)",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "RGB Chroma",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Dedicated Media Controls",
+                "Wrist Rest"
+            ]
+        },
+        "price": 139.99,
+        "image_path": "assets/images/keyboard_1.png",
+        "category": "keyboard",
+        "brand": "Razer",
+        "release_date": "2020-08-18"
+    },
+    {
+        "id": "keyboard_2",
+        "name": "Corsair K70 RGB MK.2",
+        "specs": {
+            "type": "Mechanical Gaming Keyboard",
+            "switch_type": "Cherry MX Red",
+            "key_rollover": "104-Key Rollover",
+            "backlighting": "RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Aluminum Frame",
+                "USB Passthrough"
+            ]
+        },
+        "price": 159.99,
+        "image_path": "assets/images/keyboard_2.png",
+        "category": "keyboard",
+        "brand": "Corsair",
+        "release_date": "2018-06-12"
+    },
+    {
+        "id": "keyboard_3",
+        "name": "Logitech G915 TKL",
+        "specs": {
+            "type": "Wireless Mechanical Gaming Keyboard",
+            "switch_type": "Low Profile GL Tactile",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "LIGHTSYNC RGB",
+            "connectivity": [
+                "Wireless",
+                "Bluetooth",
+                "Wired"
+            ],
+            "additional_features": [
+                "Tenkeyless",
+                "Ultra-thin"
+            ]
+        },
+        "price": 229.99,
+        "image_path": "assets/images/keyboard_3.png",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "release_date": "2020-05-26"
+    },
+    {
+        "id": "keyboard_4",
+        "name": "SteelSeries Apex Pro TKL",
+        "specs": {
+            "type": "Mechanical Gaming Keyboard",
+            "switch_type": "OmniPoint Adjustable",
+            "key_rollover": "104-Key Rollover",
+            "backlighting": "Per-Key RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "OLED Smart Display",
+                "Magnetic Wrist Rest"
+            ]
+        },
+        "price": 189.99,
+        "image_path": "assets/images/keyboard_4.png",
+        "category": "keyboard",
+        "brand": "SteelSeries",
+        "release_date": "2019-09-24"
+    },
+    {
+        "id": "keyboard_5",
+        "name": "HyperX Alloy Origins",
+        "specs": {
+            "type": "Mechanical Gaming Keyboard",
+            "switch_type": "HyperX Red (Linear)",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Aircraft-grade aluminum body"
+            ]
+        },
+        "price": 109.99,
+        "image_path": "assets/images/keyboard_5.png",
+        "category": "keyboard",
+        "brand": "HyperX",
+        "release_date": "2019-10-07"
+    },
+    {
+        "id": "keyboard_6",
+        "name": "Ducky One 2 Mini",
+        "specs": {
+            "type": "Mechanical Gaming Keyboard",
+            "switch_type": "Cherry MX Brown",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "60% Form Factor",
+                "PBT Double-shot Keycaps"
+            ]
+        },
+        "price": 99.99,
+        "image_path": "assets/images/keyboard_6.png",
+        "category": "keyboard",
+        "brand": "Ducky",
+        "release_date": "2018-11-01"
+    },
+    {
+        "id": "keyboard_7",
+        "name": "Keychron Q1 Version 2",
+        "specs": {
+            "type": "Custom Mechanical Keyboard",
+            "switch_type": "Gateron G Pro Red",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "South-facing RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Hot-swappable",
+                "75% Layout",
+                "CNC Aluminum Body"
+            ]
+        },
+        "price": 199.99,
+        "image_path": "assets/images/keyboard_7.png",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "release_date": "2021-08-24"
+    },
+    {
+        "id": "keyboard_8",
+        "name": "Wooting 60HE",
+        "specs": {
+            "type": "Analog Mechanical Keyboard",
+            "switch_type": "Lekker Linear60",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Rapid Trigger",
+                "Adjustable Actuation",
+                "60% Layout"
+            ]
+        },
+        "price": 174.99,
+        "image_path": "assets/images/keyboard_8.png",
+        "category": "keyboard",
+        "brand": "Wooting",
+        "release_date": "2022-09-01"
+    },
+    {
+        "id": "keyboard_9",
+        "name": "ASUS ROG Strix Scope RX",
+        "specs": {
+            "type": "Optical Mechanical Keyboard",
+            "switch_type": "ROG RX Red Optical",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "Aura Sync RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "IP56 Water and Dust Resistance"
+            ]
+        },
+        "price": 129.99,
+        "image_path": "assets/images/keyboard_9.png",
+        "category": "keyboard",
+        "brand": "ASUS",
+        "release_date": "2020-10-15"
+    },
+    {
+        "id": "keyboard_10",
+        "name": "ROCCAT Vulcan TKL Pro",
+        "specs": {
+            "type": "Optical Mechanical Keyboard",
+            "switch_type": "Titan Switch Optical",
+            "key_rollover": "N-Key Rollover",
+            "backlighting": "AIMO RGB",
+            "connectivity": [
+                "Wired"
+            ],
+            "additional_features": [
+                "Tenkeyless",
+                "Mixer-style Audio Controls"
+            ]
+        },
+        "price": 159.99,
+        "image_path": "assets/images/keyboard_10.png",
+        "category": "keyboard",
+        "brand": "ROCCAT",
+        "release_date": "2020-09-29"
+    },
+    {
+        "id": "headset_1",
+        "name": "SteelSeries Arctis 7",
+        "specs": {
+            "type": "Wireless Gaming Headset",
+            "driver_size": "40 mm",
+            "frequency_response": "20 Hz - 20 kHz",
+            "microphone": {
+                "type": "Retractable Boom Mic",
+                "noise_cancellation": true,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "24 hours",
+            "connectivity": [
+                "Wireless",
+                "Wired"
+            ]
+        },
+        "price": 149.99,
+        "image_path": "assets/images/headset_1.png",
+        "category": "headset",
+        "brand": "SteelSeries",
+        "release_date": "2019-02-12"
+    },
+    {
+        "id": "headset_2",
+        "name": "HyperX Cloud II Wireless",
+        "specs": {
+            "type": "Wireless Gaming Headset",
+            "driver_size": "53 mm",
+            "frequency_response": "15 Hz - 20 kHz",
+            "microphone": {
+                "type": "Detachable Noise-cancelling Mic",
+                "noise_cancellation": true,
+                "frequency_response": "50 Hz - 6.8 kHz"
+            },
+            "battery_life": "30 hours",
+            "connectivity": [
+                "Wireless"
+            ]
+        },
+        "price": 149.99,
+        "image_path": "assets/images/headset_2.png",
+        "category": "headset",
+        "brand": "HyperX",
+        "release_date": "2020-10-20"
+    },
+    {
+        "id": "headset_3",
+        "name": "Razer BlackShark V2 Pro",
+        "specs": {
+            "type": "Wireless Esports Headset",
+            "driver_size": "50 mm",
+            "frequency_response": "12 Hz - 28 kHz",
+            "microphone": {
+                "type": "Detachable Supercardioid Mic",
+                "noise_cancellation": true,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "24 hours",
+            "connectivity": [
+                "Wireless",
+                "Wired"
+            ]
+        },
+        "price": 179.99,
+        "image_path": "assets/images/headset_3.png",
+        "category": "headset",
+        "brand": "Razer",
+        "release_date": "2020-09-22"
+    },
+    {
+        "id": "headset_4",
+        "name": "Logitech G Pro X Wireless",
+        "specs": {
+            "type": "Wireless Gaming Headset",
+            "driver_size": "50 mm",
+            "frequency_response": "20 Hz - 20 kHz",
+            "microphone": {
+                "type": "Detachable BLUE VO!CE Mic",
+                "noise_cancellation": true,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "20 hours",
+            "connectivity": [
+                "Wireless"
+            ]
+        },
+        "price": 199.99,
+        "image_path": "assets/images/headset_4.png",
+        "category": "headset",
+        "brand": "Logitech",
+        "release_date": "2020-07-28"
+    },
+    {
+        "id": "headset_5",
+        "name": "Corsair Virtuoso RGB Wireless XT",
+        "specs": {
+            "type": "High-Fidelity Gaming Headset",
+            "driver_size": "50 mm",
+            "frequency_response": "20 Hz - 40 kHz",
+            "microphone": {
+                "type": "Detachable Omni-directional",
+                "noise_cancellation": false,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "15 hours",
+            "connectivity": [
+                "Wireless",
+                "Bluetooth",
+                "Wired"
+            ]
+        },
+        "price": 269.99,
+        "image_path": "assets/images/headset_5.png",
+        "category": "headset",
+        "brand": "Corsair",
+        "release_date": "2021-05-13"
+    },
+    {
+        "id": "headset_6",
+        "name": "EPOS I SENNHEISER GAME ONE",
+        "specs": {
+            "type": "Open Acoustic Gaming Headset",
+            "driver_size": "N/A",
+            "frequency_response": "15 Hz - 28 kHz",
+            "microphone": {
+                "type": "Flip-to-mute Boom Mic",
+                "noise_cancellation": true,
+                "frequency_response": "50 Hz - 16 kHz"
+            },
+            "battery_life": "N/A",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 129.99,
+        "image_path": "assets/images/headset_6.png",
+        "category": "headset",
+        "brand": "EPOS",
+        "release_date": "2014-04-01"
+    },
+    {
+        "id": "headset_7",
+        "name": "Astro A50 Wireless Gen 4",
+        "specs": {
+            "type": "Wireless Gaming Headset",
+            "driver_size": "40 mm",
+            "frequency_response": "20 Hz - 20 kHz",
+            "microphone": {
+                "type": "Flip-to-mute Unidirectional Mic",
+                "noise_cancellation": true,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "15 hours",
+            "connectivity": [
+                "Wireless"
+            ]
+        },
+        "price": 299.99,
+        "image_path": "assets/images/headset_7.png",
+        "category": "headset",
+        "brand": "Astro",
+        "release_date": "2019-08-11"
+    },
+    {
+        "id": "headset_8",
+        "name": "Beyerdynamic MMX 300",
+        "specs": {
+            "type": "Premium Gaming Headset",
+            "driver_size": "N/A",
+            "frequency_response": "5 Hz - 30 kHz",
+            "microphone": {
+                "type": "Condenser Cardioid Mic",
+                "noise_cancellation": true,
+                "frequency_response": "30 Hz - 18 kHz"
+            },
+            "battery_life": "N/A",
+            "connectivity": [
+                "Wired"
+            ]
+        },
+        "price": 299.99,
+        "image_path": "assets/images/headset_8.png",
+        "category": "headset",
+        "brand": "Beyerdynamic",
+        "release_date": "2017-03-01"
+    },
+    {
+        "id": "headset_9",
+        "name": "Audio-Technica ATH-G1WL",
+        "specs": {
+            "type": "Premium Wireless Gaming Headset",
+            "driver_size": "45 mm",
+            "frequency_response": "5 Hz - 40 kHz",
+            "microphone": {
+                "type": "Detachable Boom Mic",
+                "noise_cancellation": false,
+                "frequency_response": "30 Hz - 20 kHz"
+            },
+            "battery_life": "15 hours",
+            "connectivity": [
+                "Wireless"
+            ]
+        },
+        "price": 249,
+        "image_path": "assets/images/headset_9.png",
+        "category": "headset",
+        "brand": "Audio-Technica",
+        "release_date": "2019-07-16"
+    },
+    {
+        "id": "headset_10",
+        "name": "JBL Quantum 800",
+        "specs": {
+            "type": "Wireless Over-Ear Performance Gaming Headset",
+            "driver_size": "50 mm",
+            "frequency_response": "20 Hz - 40 kHz",
+            "microphone": {
+                "type": "Flip-up Boom Mic",
+                "noise_cancellation": true,
+                "frequency_response": "100 Hz - 10 kHz"
+            },
+            "battery_life": "14 hours",
+            "connectivity": [
+                "Wireless",
+                "Bluetooth",
+                "Wired"
+            ]
+        },
+        "price": 199.95,
+        "image_path": "assets/images/headset_10.png",
+        "category": "headset",
+        "brand": "JBL",
+        "release_date": "2020-04-15"
+    }
+]
