@@ -66,6 +66,8 @@
                         </p>
 
                         <form id="suggestForm" novalidate>
+                            <div id="formMessage" class="alert d-none" role="alert"></div>
+
                             <!-- Component Category -->
                             <div class="mb-3">
                                 <label for="componentCategory" class="form-label">
@@ -91,7 +93,8 @@
                                     <i class="bi bi-card-heading"></i> Component Name *
                                 </label>
                                 <input type="text" class="form-control" id="componentName"
-                                    placeholder="e.g., AMD Ryzen 9 7950X" required pattern="^[A-Za-z0-9\s\-\.()]+$">
+                                    placeholder="e.g., AMD Ryzen 9 7950X" required pattern="^[A-Za-z0-9\s\-\.()+/]+$"
+                                    minlength="3" maxlength="80">
                                 <div class="invalid-feedback">Please enter a valid component name (letters, numbers,
                                     spaces, hyphens, parentheses only).</div>
                             </div>
@@ -102,7 +105,8 @@
                                     <i class="bi bi-building"></i> Brand
                                 </label>
                                 <input type="text" class="form-control" id="componentBrand"
-                                    placeholder="e.g., AMD, Intel, NVIDIA, ASUS" pattern="^[A-Za-z0-9\s\-]+$">
+                                    placeholder="e.g., AMD, Intel, NVIDIA, ASUS" pattern="^[A-Za-z0-9\s\-\.&]+$"
+                                    maxlength="40">
                                 <div class="invalid-feedback">Please enter a valid brand name.</div>
                             </div>
 
@@ -112,7 +116,7 @@
                                     <i class="bi bi-currency-dollar"></i> Price (USD)
                                 </label>
                                 <input type="number" class="form-control" id="componentPrice" placeholder="e.g., 599.99"
-                                    min="0" step="0.01">
+                                    min="0.01" max="9999.99" step="0.01">
                                 <div class="invalid-feedback">Please enter a valid price.</div>
                             </div>
 
@@ -132,8 +136,8 @@
                                 </label>
                                 <textarea class="form-control" id="componentSpecs" rows="4"
                                     placeholder="Enter key specs like cores, clock speed, memory, etc."
-                                    minlength="10"></textarea>
-                                <div class="form-text">Minimum 10 characters</div>
+                                    minlength="10" maxlength="500"></textarea>
+                                <div class="form-text">Optional, 10-500 characters if provided</div>
                                 <div class="invalid-feedback">Please provide specifications (min 10 chars).</div>
                             </div>
 
@@ -196,6 +200,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/suggest.js"></script>
 </body>
 
 </html>
+
